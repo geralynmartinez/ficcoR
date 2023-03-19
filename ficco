@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>FICCO</title>
+ <style>
+ input[type=text], input[type=password] {
+ padding: 10px;
+ margin: 5px;
+ border-radius: 10px;
+ border: 1px solid #ccc;
+ box-sizing: border-box 50px;
+ }
+ input[type=submit] {
+ background-color: yellow;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+
+ .error {
+ color: red;
+ font-size: 14px;
+ margin: 5px;
+ }
+ .success {
+ color: yellow;
+ font-size: 14px;
+ margin: 5px;
+ }
+ </style>
+</head>
+<body>
+<div style="background-color:DarkBlue;" width="100%" height="100%">
+
+<img src="ficco.png" alt="ficco.png" float="center" align="left"  width="25%" height="25%">
+ <center>
+<h1 style="color:white;">FICCO</h1>
+<p style="color:white;"> First Community Cooperative</p>
+<h3 style="color:white;"> Home <tr> Privacy Policy <tr> About Us</h3>
+<input type="submit"style="color:black;" value="Log-in">
+<input type="submit" style="color:black;"value="Sign-up">
+</center></div>
+<center></td>
+<img src="ficco.png" alt="ficco.png" width="142" height="142">
+<h3> Create your Account Now</h3>
+<p> Enter your details to create an account</p>
+<td>
+</tr>
+</table> 
+
+<tr>
+ <form>
+ <tr><label for="first name" ><td>First Name : </td></label><tr>
+ <input type="text" placeholder="First Name" id="first name" 
+name="first name" required><br></tr>
+ 
+<tr><label for="middle name" ><td>Middle Name:</td> </label>
+<input type="text" placeholder="Middle Name" id="middle name" 
+name="middle name" required><br></tr>
+ 
+ <tr><label for="last name"><td>Last Name:</td></label>
+ <input type="text" placeholder="Last Name" id="last name" 
+name="last name" required><br></tr>
+
+ <tr><label for="account number">Account Number:</label>
+ <input type="text" placeholder="Account Number"id="account number" 
+name="account number" required><br></tr>
+
+ <tr><label for="branch">Branch:</label>
+ <select>
+<option> Select Branch</option>
+<option value="tag">Tagoloan Branch</option>
+<option value="pue">Puerto Branch</option>
+<option value="car">Carmen Branch</option>
+</select>
+  <br>
+ <tr><label for="email">Email:</label>
+ <input type="text" placeholder="Email" id="email" 
+name="email" required><br></tr>
+<p style="color:lightgreen;"> Password need to have atleast 1 capital letter, special character,number and atleast 8 character long</p>
+<h6 style="color:lightblue;">Example:!JonhDoe22</h6>
+<form>
+ <tr><label for="password">Password:</label>
+ <input type="password" placeholder="Password" id="demo" 
+name="password" required><br></tr>
+
+<input type="checkbox" >
+  <label for="checkbox1">Show Password:</label><br>
+<form>
+ <tr><label for="confirm password">Confirm Password:</label>
+ <input type="confirm pasword" placeholder="Confirm Password" id="confirm password" 
+name="confirm password" required><br></tr>
+<input type="checkbox" >
+  <label for="checkbox2">I Accept our Terms and Policy</label><br>
+
+<input type="submit" style="color:black;" value="Register">
+ </form>
+ <div id="message"></div>
+
+</body>
+</html>
